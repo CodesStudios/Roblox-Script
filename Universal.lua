@@ -322,7 +322,7 @@ do
 
     Tabs.Aimbot:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/CodesStudios/Roblox-Script"
     })
 
     local AimbotSection = Tabs.Aimbot:AddSection("Aimbot")
@@ -569,7 +569,7 @@ do
 
     Tabs.Bots:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua"
     })
 
     local SpinBotSection = Tabs.Bots:AddSection("SpinBot")
@@ -727,7 +727,7 @@ do
 
     Tabs.Checks:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua"
     })
 
     local SimpleChecksSection = Tabs.Checks:AddSection("Simple Checks")
@@ -1084,7 +1084,7 @@ do
 
         Tabs.Visuals:AddParagraph({
             Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-            Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+            Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua"
         })
 
         local FoVSection = Tabs.Visuals:AddSection("FoV")
@@ -1326,7 +1326,7 @@ do
 
     Tabs.Settings:AddParagraph({
         Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/ttwizz/Open-Aimbot"
+        Content = "✨Universal Aim Assist Framework✨\nhttps://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua"
     })
 
     local UISection = Tabs.Settings:AddSection("UI")
@@ -1635,7 +1635,7 @@ do
             Title = "Copy Wiki Link",
             Description = "Paste it into the Browser Tab",
             Callback = function()
-                getfenv().setclipboard("https://moderka.org/Open-Aimbot")
+                getfenv().setclipboard("https://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua")
                 Window:Dialog({
                     Title = string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot"),
                     Content = "Wiki Link has been copied to the Clipboard!",
@@ -1649,12 +1649,12 @@ do
         })
     else
         DiscordWikiSection:AddParagraph({
-            Title = "https://twix.cyou/pix",
+            Title = "https://github.com/CodesStudios/Roblox-Script/blob/main/Universal.luax",
             Content = "Paste it into the Browser Tab"
         })
 
         DiscordWikiSection:AddParagraph({
-            Title = "https://moderka.org/Open-Aimbot",
+            Title = "https://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua",
             Content = "Paste it into the Browser Tab"
         })
     end
@@ -1683,7 +1683,7 @@ do
         else
             Window:Dialog({
                 Title = string.format("%s 💫PREMIUM💫", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
-                Content = "✨Upgrade to unlock all Options✨ – Contact @ttwiz_z via Discord to buy",
+                Content = "✨Upgrade to unlock all Options✨ – Contact @codesstudios via Discord to buy",
                 Buttons = {
                     {
                         Title = "Confirm"
@@ -1702,7 +1702,7 @@ local function Notify(Message)
         Fluent:Notify({
             Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Open Aimbot")),
             Content = Message,
-            SubContent = "By @ttwiz_z",
+            SubContent = "By @codesstudios",
             Duration = 1.5
         })
     end
@@ -2385,7 +2385,7 @@ local OnTeleport; OnTeleport = Player.OnTeleport:Connect(function()
     if DEBUG or not Fluent or not getfenv().queue_on_teleport then
         OnTeleport:Disconnect()
     else
-        getfenv().queue_on_teleport("getfenv().loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ttwizz/Open-Aimbot/master/source.lua\", true))()")
+        getfenv().queue_on_teleport("getfenv().loadstring(game:HttpGet(\"https://github.com/CodesStudios/Roblox-Script/blob/main/Universal.lua\", true))()")
         OnTeleport:Disconnect()
     end
 end)
